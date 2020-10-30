@@ -8,5 +8,5 @@ Objectif: Réalisation d'une page d'hommage à Ada Lovelace dans le cadre du cur
 
 # Série : Free Code Camp - RWD Curriculum / Projet 1
 
-![Design preview for the coding challenge](./img/screenshot_ada_tribute_page.png)
+![Design preview for the coding challenge](./src/preview.png)
 
