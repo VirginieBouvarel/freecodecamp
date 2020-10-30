@@ -1,6 +1,7 @@
 # Ada Lovelace Tribute Page
 
-Objectif: Réalisation d'une page d'hommage à Ada Lovelace dans le cadre du curriculum Responsive Web Design de Free Code camp
+Objectif: Réalisation d'une page d'hommage à Ada Lovelace 
+
 
 > Technos: HTML/CSS
 
