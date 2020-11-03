@@ -25,20 +25,20 @@
 
     <form action="#" id="survey-form">
       <div class="form__item">
-        <label id="name-label" for="name">Nom</label>
+        <label class="form-label" id="name-label" for="name">Nom</label>
         <input required type="text" id="name" placeholder="Entrez votre nom">
       </div>
       <div class="form__item">
-        <label id="email-label" for="email">Email</label>
+        <label class="form-label"  id="email-label" for="email">Email</label>
         <input id="email" required type="email" placeholder="adresse@mail.com">
       </div>
       <div class="form__item">
-        <label id="number-label" for="number">Age</label>
+        <label class="form-label"  id="number-label" for="number">Age</label>
         <input id="number" type="number" min="7" max="77" placeholder="40" />
       </div>
       <div class="form__item">
-        <label id="dropdown">Quel type de fan êtes-vous?</label>
-        <select>
+        <label class="form-label">Quel type de fan êtes-vous?</label>
+        <select id="dropdown">
           <option>Choisissez votre niveau de fanitude</option>
           <option>Fan</option>
           <option>Crazy fan</option>
@@ -47,23 +47,23 @@
         </select>
       </div>
       <div class="form__item">
-        <p>Conseilleriez-vous le Crazy Rabbit Club à vos proches ?</p>
+        <p class="form-label" >Conseilleriez-vous le Crazy Rabbit Club à vos proches ?</p>
         <div>
-          <input type="radio" name="advise">
+          <input type="radio" name="advise" value="1">
           <label>Follement</label>
         </div>
         <div>
-          <input type="radio" name="advise">
+          <input type="radio" name="advise" value="2">
           <label>Je dois d'abord consulter Rabbit guru</label>
         </div>
         <div>
-          <input type="radio" name="advise">
+          <input type="radio" name="advise" value="3">
           <label>Passionément</label>
         </div>
       </div>
 
       <div class="form__item">
-        <p>Quel sont vos lapins de coeur?</p>
+        <p class="form-label" >Quel sont vos lapins de coeur?</p>
 
         <div class="rabbit-box">
           <input type="checkbox" id="brazil" value="brazil">
@@ -96,7 +96,8 @@
       </div>
 
       <div class="form__item">
-        <textarea name="msg" id="msg" cols="80" rows="10" placeholder="laissez un message à vos rabbits..."></textarea>
+        <p class="form-label" >Un fin commentaire? Une suggestion inspirée?</p>
+        <textarea name="msg" id="msg" cols="75" rows="10" placeholder="Laissez un message à vos rabbits..."></textarea>
       </div>
 
       <input id="submit" type="submit" value="Envoyer">
