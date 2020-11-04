@@ -1,0 +1,96 @@
+/* GLOBALS */
+
+:root {
+	/* Background Colors */
+	--bg-dark-blue: hsl(243, 62%, 33%);
+	--bg-green:hsl(154, 62%, 33%);
+	--bg-purple: hsl(330, 76%, 41%);
+	--bg-light-blue:hsl(204, 100%, 67%) ;
+
+	/* Fonts Colors */
+	--txt-dark-gray: hsl(0, 0%, 20%);
+
+	/* Fonts */
+	--font-main:'Opensans', sans-serif;
+	--font-title:'Roboto', sans-serif;
+}
+
+html {
+	font-size:62.5%;/*1rem = 10px*/
+	box-sizing:border-box;
+}
+
+*, *:before, *:after {
+	box-sizing:inherit;
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-family: var(--font-main);
+	font-size:1.4rem;
+}
+
+h1, h2, h3 {
+	margin:0;
+}
+
+img {
+	max-width:100%;
+	height:auto;
+}
+
+a {
+	text-decoration:none;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+/* LAYOUTS */
+
+.container {
+	width:83%;
+	max-width:1114px;
+	margin:0 auto;
+}
+
+section {
+	margin-bottom:14rem;
+}
+
+/* HEADINGS AND FONTS */
+
+.title {
+	font-size:4.8rem;
+	line-height:4.8rem;
+	letter-spacing:-1px;
+	font-family:var(--font-title);
+	color:var(--txt-white);
+}
+.link {
+	font-size:1.3rem;
+	font-weight:700;
+	letter-spacing:1px;
+	font-family:var(--font-title);
+	text-transform:uppercase;
+}
+.link:hover {
+	cursor:pointer;
+}
+
+/* COMPONENTS */
+
+.cta {
+	border:2px solid red;
+	padding:1.1rem 2.7rem;
+}
+
+.cta:hover {
+	color:#fff;
+	background-color: red;
+	cursor:pointer;
+}
+
+/* SECTIONS STYLES */
