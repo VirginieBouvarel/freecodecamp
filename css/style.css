@@ -1,18 +1,15 @@
 /* GLOBALS */
 
 :root {
-	/* Background Colors */
-	--bg-dark-blue: hsl(243, 62%, 33%);
-	--bg-green:hsl(154, 62%, 33%);
-	--bg-purple: hsl(330, 76%, 41%);
-	--bg-light-blue:hsl(204, 100%, 67%) ;
-
-	/* Fonts Colors */
-	--txt-dark-gray: hsl(0, 0%, 20%);
+	/* Colors */
+	--c-dark-cyan: hsl(180,100%,25%);
+	--c-cyan: hsla(180, 100%, 50%, 0.6);
+	--c-orange: hsl(33,100%,50%);
+	--c-white:hsl(0, 0%, 100%);
 
 	/* Fonts */
-	--font-main:'Opensans', sans-serif;
-	--font-title:'Roboto', sans-serif;
+	--f-main:'Opensans', sans-serif;
+	--f-title:'Itim', cursive;
 }
 
 html {
@@ -27,8 +24,8 @@ html {
 }
 
 body {
-	font-family: var(--font-main);
-	font-size:1.4rem;
+	font-family: var(--f-main);
+	font-size:1.6rem;
 }
 
 h1, h2, h3 {
@@ -60,37 +57,6 @@ section {
 	margin-bottom:14rem;
 }
 
-/* HEADINGS AND FONTS */
-
-.title {
-	font-size:4.8rem;
-	line-height:4.8rem;
-	letter-spacing:-1px;
-	font-family:var(--font-title);
-	color:var(--txt-white);
-}
-.link {
-	font-size:1.3rem;
-	font-weight:700;
-	letter-spacing:1px;
-	font-family:var(--font-title);
-	text-transform:uppercase;
-}
-.link:hover {
-	cursor:pointer;
-}
-
-/* COMPONENTS */
-
-.cta {
-	border:2px solid red;
-	padding:1.1rem 2.7rem;
-}
-
-.cta:hover {
-	color:#fff;
-	background-color: red;
-	cursor:pointer;
-}
 
 /* SECTIONS STYLES */
+
