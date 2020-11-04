@@ -3,8 +3,9 @@
 :root {
 	/* Colors */
 	--c-dark-cyan: hsl(180,100%,25%);
-	--c-cyan: hsla(180, 100%, 50%, 0.6);
-	--c-orange: hsl(33,100%,50%);
+	--c-cyan: hsl(180, 96%, 45%);
+	--c-light-cyan: hsla(180, 96%, 45%, 0.45);
+	--c-yellow: hsl(49, 93%, 57%);
 	--c-white:hsl(0, 0%, 100%);
 
 	/* Fonts */
@@ -47,16 +48,131 @@ ul li {
 
 /* LAYOUTS */
 
-.container {
+/* .container {
 	width:83%;
 	max-width:1114px;
 	margin:0 auto;
-}
+} */
 
 section {
-	margin-bottom:14rem;
+	margin-bottom:6rem;
 }
 
+/* HEADINGS */
+h1 {
+	color:var(--c-white);
+	text-align: center;
+	padding-top:15rem;
+}
+
+h2 {
+	color:var(--c-cyan);
+	text-align:center;
+	margin-bottom:3rem;
+}
 
 /* SECTIONS STYLES */
+
+/* header */
+
+#header {
+	background-color: var(--c-cyan);
+}
+.header__img {
+	width:25%;
+	padding:3rem 0;
+	margin:0 auto;
+}
+.header__nav {
+	text-align:center;
+	padding:3rem 0;
+	background-color:var(--c-cyan);
+}
+.nav-link {
+	color:var(--c-white);
+	font-weight:bold;
+}
+/* .nav-link:hover {
+	border-bottom:3px solid var(--c-white);
+	padding:1rem;
+} */
+.nav-link + .nav-link{
+	margin-left:2rem;
+}
+
+/* section home */
+#home {
+	background: linear-gradient(var(--c-light-cyan), var(--c-light-cyan)),url('../img/bg-header.jpg') no-repeat;
+	background-size:cover;
+	min-height:50rem;
+}
+
+/* section members */
+figure {
+	 border-radius:6px;
+	 max-width:70%;
+	 margin:0 auto;
+	 margin-bottom:3rem;
+	 box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+figcaption {
+	background-color: var(--c-cyan);
+	color:var(--c-white);
+	font-weight:bold;
+	text-align:center;
+	padding:1.5rem;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+/* section mission */
+
+#video {
+	display:block;
+	max-width:90%;
+	margin:0 auto;
+	
+}
+
+/* footer */
+
+#footer {
+	background-color: var(--c-cyan);
+	color:var(--c-white);
+	text-align:center;
+	padding:5rem 2rem;
+}
+#form {
+	margin-bottom:6rem;
+}
+input {
+	width:100%;
+	padding:1rem;
+	border-radius:5px;
+	border:none;
+	margin-bottom:1rem;
+}
+#email::placeholder {
+	text-align:center;
+}
+#submit {
+	background-color: var(--c-yellow);
+	color:var(--c-white);
+	font-weight:bold;
+}
+.list {
+	margin-bottom:8rem;
+}
+.list__item {
+	margin-bottom:2rem;
+}
+
+.footer-link {
+	color:var(--c-white);
+}
+.copyright {
+	font-size:1rem;
+	margin:1rem;
+}
 

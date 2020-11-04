@@ -19,9 +19,11 @@
 <body>
   <header id="header">
 
-    <img id="header-img" src="img/logo.png" alt="logo crazy rabbit club">
-
-    <nav id="nav-bar">
+    <div class="header__img">
+      <img id="header-img" src="img/logo.png" alt="logo crazy rabbit club">
+    </div>
+    
+    <nav class="header__nav" id="nav-bar">
       <a href="#home" class="nav-link">Accueil</a>
       <a href="#members" class="nav-link">Membres</a>
       <a href="#mission" class="nav-link">Mission</a>
@@ -80,7 +82,6 @@
 
     <form action="https://www.freecodecamp.com/email-submit" method="get" id="form">
       <div class="form__item">
-        <label for="email">Email</label>
         <input type="email" name="email" id="email" placeholder="address@mail.com">
       </div>
       <div class="form__item">
@@ -88,13 +89,13 @@
       </div>
     </form>
 
-    <ul>
-      <li><a href="#">Privacy</a></li>
-      <li><a href="#">Terms</a></li>
-      <li><a href="#">Contact</a></li>
+    <ul class="list">
+      <li class="list__item"><a href="#" class="footer-link">Privacy</a></li>
+      <li class="list__item"><a href="#" class="footer-link">Terms</a></li>
+      <li class="list__item"><a href="#" class="footer-link">Contact</a></li>
     </ul>
 
-    <p>Virginie Bouvarel ©2020</p>
+    <p class="copyright" >Virginie Bouvarel ©2020</p>
 
   </footer>
 
