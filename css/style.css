@@ -116,7 +116,7 @@ h2 {
 #home {
 	background: linear-gradient(var(--c-light-cyan), var(--c-light-cyan)),url('../img/bg-header.jpg') no-repeat, var(--c-cyan);
 	background-size:cover;
-	min-height: 50rem;
+	min-height: 70rem;
 }
 
 /* section members */
