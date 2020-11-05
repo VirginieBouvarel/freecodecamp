@@ -1,11 +1,11 @@
 # Product Landing Page
 
-Objectif: Réalisation landing page
+Objectif: Réalisation d'une landing page
 
 > Technos: HTML/CSS
 
 
-# Série : Free Code Camp - RWD Curriculum / Projet 2
+# Série : Free Code Camp - RWD Curriculum / Projet 3
 
 ![Design preview for the coding challenge](./src/preview.png)
 
