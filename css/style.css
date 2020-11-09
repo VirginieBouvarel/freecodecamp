@@ -2,15 +2,13 @@
 
 :root {
 	/* Colors */
-	--c-dark-cyan: hsl(180,100%,25%);
-	--c-cyan: hsl(180, 96%, 45%);
-	--c-light-cyan: hsla(180, 96%, 45%, 0.45);
-	--c-yellow: hsl(49, 93%, 57%);
+	--c-cyan: hsl(180, 100%, 50%);
+	--c-violet: hsl(300, 100%, 25%);
 	--c-white:hsl(0, 0%, 100%);
 
 	/* Fonts */
 	--f-main:'Opensans', sans-serif;
-	--f-title:'Itim', cursive;
+	
 }
 
 html {
@@ -42,10 +40,6 @@ a {
 	text-decoration:none;
 }
 
-ul li {
-	list-style-type: none;
-}
-
 /* LAYOUTS */
 
 .container {
@@ -65,7 +59,7 @@ h1 {
 	color:var(--c-white);
 	text-align: center;
 	padding-top:15rem;
-	font-size:5rem;
+	font-size:3rem;
 }
 
 h2 {
