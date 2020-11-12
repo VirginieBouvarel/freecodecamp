@@ -21,10 +21,18 @@
 <body>
   <div class="wrapper">
     <nav id="navbar">
-      <header>
+      <header class="banner">
         <h1>Flexbox Doc</h1>
+        <div class="burger">
+          <input type="checkbox" name="burger" id="burger">
+          <label for="burger">
+            <i id="bars" class="fas fa-bars"></i>
+            <i id="close" class="fas fa-times"></i>
+          </label>
+        </div>
       </header>
-      <ul>
+
+      <ul class="nav-list">
         <li><a class="nav-link" href="#Introduction">Introduction</a></li>
         <li><a class="nav-link" href="#Les_propriétés_du_flex_container">Les propriétés du flex container</a></li>
         <li><a class="nav-link" href="#Les_propriétés_du_flex_item">Les propriétés du flex item</a></li>
@@ -192,6 +200,7 @@
     </main>
   </div>
     
+  <script src="script.js"></script>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
