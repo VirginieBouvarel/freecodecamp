@@ -104,14 +104,24 @@ section {
 .fas {
 	color:var(--c-violet);
 }
-
+.nav-list {
+	position:absolute;
+	width:100%;
+	left:-100%;
+	z-index:100%;
+	background-color: var(--c-violet);
+	transition:0.5s;
+}
+.open {
+	left:0;
+}
 .nav-list li{
 	display:block;
 	padding:1rem;
 	border-bottom:2px solid #ddd;
 }
 .nav-link {
-	color:var(--c-grey);
+	color:var(--c-white);
 }
 
 figure {
