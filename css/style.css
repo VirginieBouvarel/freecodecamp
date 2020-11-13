@@ -78,12 +78,12 @@ p {
 
 /* LAYOUTS */
 
-.container {
+/* .container {
 	width:100%;
 	max-width:1114px;
 	margin:0 auto;
 	background-color: hsl(0, 16%, 96%);
-}
+} */
 
 section {
 	margin-bottom:6rem;
@@ -132,15 +132,13 @@ figure {
 @media screen and (min-width: 900px) {
 	.wrapper {
 		display:flex;
+		max-width:1300px;
 	}
 	#navbar {
 		flex:1 1 20%;
 		border-right:2px solid var(--c-light-grey);
 	}
 	.burger {
-		display:none;
-	}
-	#bars, #close {
 		display:none;
 	}
 	.nav-list {
@@ -153,8 +151,10 @@ figure {
 	.illustration {
 		display:flex;
 		align-items: stretch;
+		justify-content: space-between;
 	}
 	.illustration figure {
-		flex:0 1 100%;
+		flex:0 1 48%;
+		margin:0;
 	}
 }
