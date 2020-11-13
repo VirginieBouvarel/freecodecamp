@@ -7,5 +7,5 @@ Objectif: Réalisation d'une documentation technique
 
 # Série : Free Code Camp - RWD Curriculum / Projet 4
 
-![Design preview for the coding challenge](./src/preview.png)
+![Design preview for the coding challenge](./src/preview.png) 
 
