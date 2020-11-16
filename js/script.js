@@ -1,7 +1,7 @@
 "use strict";
 
-const icon = document.querySelector('#burger');
-const nav = document.querySelector('.nav-list');
+const icon = document.querySelector('#icon');
+const menu = document.querySelector('.menu');
 
 
 icon.addEventListener('click', toggleNav);
@@ -13,5 +13,5 @@ function toggleNav() {
    icon.classList.toggle('fa-times');
 
     // 2- toggle nav
-    nav.classList.toggle('open');
+    menu.classList.toggle('open');
 }
