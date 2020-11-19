@@ -20,72 +20,67 @@
 </head>
 
 <body>
-    <header>
-    
-      <i id="icon" class="fas fa-bars"></i>
+  <nav id="navbar" >
+    <i id="icon" class="fas fa-bars"></i>
+    <ul class="menu">
+      <li class="navbar-item"><a href="#welcome-section">Home</a></li>
+      <li class="navbar-item"><a href="#projects">Work</a></li>
+      <li class="navbar-item"><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-      <nav id="navbar" class="menu">
-        <ul>
-          <li class="navbar-item"><a href="#welcome-section">Home</a></li>
-          <li class="navbar-item"><a href="#projects">Work</a></li>
-          <li class="navbar-item"><a href="#contact">Contact</a></li>
-        </ul> 
-      </nav>
+  <main id="main-doc">
+    <section id="welcome-section">
+      <h1>Hey I am Virbaya</h1>
+      <p class="job">a web developer</p>
+    </section>
 
-    </header>
+    <section id="projects">
+      <h2>These are some of my projects</h2>
+      <hr>
+      <ul class="tiles">
+        <li class="project-tile">
+          <a href="#" class="project-link">
+            <img src="img/tributepage.png" alt="Ada Lovelace Tribute page">
+            <p class="project-name">Tribute page</p>
+          </a>
+        </li>
+        <li class="project-tile">
+          <a href="#" class="project-link">
+            <img src="img/landingpage.png" alt="Crazy Rabbit Club">
+            <p class="project-name">Crazy Rabbit Club</p>
+          </a>
+        </li>
+        <li class="project-tile">
+          <a href="#" class="project-link">
+            <img src="img/flexdoc.png" alt="Flexbox Technical Documentation">
+            <p class="project-name">Flexbox Documentation</p>
+          </a>
+        </li>
+        <li class="project-tile">
+          <a href="#" class="project-link">
+            <img src="img/chronometer.png" alt="Chronometer">
+            <p class="project-name">Chronometer</p>
+          </a>
+        </li>
+        <li class="project-tile">
+          <a href="#" class="project-link">
+            <img src="img/calculator.png" alt="Calculator">
+            <p class="project-name">Calculator</p>
+          </a>
+        </li>
+        <li class="project-tile">
+          <a href="#" class="project-link">
+            <img src="img/pong.png" alt="Pong">
+            <p class="project-name">Pong</p>
+          </a>
+        </li>
+      </ul>
+      <a href="#" id="profile-link">Show all <i class="fas fa-angle-right"></i></a>
+    </section>
 
-
-    <main>
-      <section id="welcome-section">
-        <h1>Hey I am Virbaya</h1>
-        <p class="job">a web developer</p>
-      </section>
-
-      <section id="projects">
-        <h2>These are some of my projects</h2>
-        <hr>
-        <ul class="tiles">
-          <li class="project-tile">
-            <a href="#" class="project-link">
-              <img src="img/tributepage.png" alt="Ada Lovelace Tribute page">
-              <p class="project-name">Tribute page</p>
-            </a>
-          </li>
-          <li class="project-tile">
-            <a href="#" class="project-link">
-              <img src="img/landingpage.png" alt="Crazy Rabbit Club">
-              <p class="project-name">Crazy Rabbit Club</p>
-            </a>
-          </li>
-          <li class="project-tile">
-            <a href="#" class="project-link">
-              <img src="img/flexdoc.png" alt="Flexbox Technical Documentation">
-              <p class="project-name">Flexbox Documentation</p>
-            </a>
-          </li>
-          <li class="project-tile">
-            <a href="#" class="project-link">
-              <img src="img/chronometer.png" alt="Chronometer">
-              <p class="project-name">Chronometer</p>
-            </a>
-          </li>
-          <li class="project-tile">
-            <a href="#" class="project-link">
-              <img src="img/calculator.png" alt="Calculator">
-              <p class="project-name">Calculator</p>
-            </a>
-          </li>
-          <li class="project-tile">
-            <a href="#" class="project-link">
-              <img src="img/pong.png" alt="Pong">
-              <p class="project-name">Pong</p>
-            </a>
-          </li>
-        </ul>
-        <a href="#" id="profile-link">Show all <i class="fas fa-angle-right"></i></a>
-      </section>
-
-      <section id="contact">
+    <section id="contact">
+      <div class="contact-content">
         <h2>Let's work together...</h2>
         <div class="socials">
           <div class="social-item">
@@ -109,15 +104,17 @@
             <p>Call me</p>
           </div>
         </div>
-      </section>
-    </main>
 
-    <footer>
-      <div class="footer-content">
-        <p class="fake">**This is just a fake portfolio. All the projects and contact details given are not real.</p>
-        <p class="copyright">© Created for <a>freeCodeCamp<i class="fab fa-free-code-camp"></i></a></p>
       </div>
-    </footer>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p class="fake">**This is just a fake portfolio. The projects and contact details given are not real or incomplete.</p>
+      <p>Created for <a>freeCodeCamp<i class="fab fa-free-code-camp"></i></a> <br>by Virginie Bouvarel©2020 </p>
+    </div>
+  </footer>
   <script src="js/script.js"></script>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>

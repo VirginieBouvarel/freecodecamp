@@ -90,9 +90,11 @@ p {
 
 /* header */
 
-header {
+#navbar {
 	background-color: var(--c-red);
-	position:absolute;
+	position:fixed;
+	top:0; 
+	left:0;
 	width:100%;
 	text-align:left;
 }
@@ -166,12 +168,40 @@ header {
 
 #contact {
 	background-color: var(--c-gray);
-
+	min-height:100vh;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
 }
+.contact-content h2 {
+	font-size:5rem;
+	line-height:1.5;
+	margin-bottom:5rem;
+}
+.socials {
+	display:flex;
+	flex-flow:row wrap;
+	justify-content: center;
+}
+.socials > * {
+	flex: 0 1 100%;
+	margin-bottom:2.5rem;
+}
+
 
 /* footer */
 footer {
 	background-color: var(--c-gray);
+	border-top:5px solid var(--c-red);
+	padding:4rem;
+	font-size:1.2rem;
+}
+.footer-content p {
+	line-height :1.5;
+}
+.fake {
+	margin-bottom:4rem;
 }
 
 /* RWD */
