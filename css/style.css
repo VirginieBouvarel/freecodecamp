@@ -205,7 +205,7 @@ footer {
 }
 
 /* RWD */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 960px) {
 	#icon {
 		display:none;
 	}
