@@ -1,6 +1,6 @@
-# Portfolio
+# Fake portfolio
 
-Objectif: Réalisation d'une page portfolio
+Objectif: Réalisation d'un exemple de portfolio
 
 > Technos: HTML/CSS
 
