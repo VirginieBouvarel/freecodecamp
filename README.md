@@ -1,6 +1,6 @@
 # Survey form
 
-[Voir la démo](https://virginiebouvarel.github.io/breakout/)
+[Voir la démo](https://virginiebouvarel.github.io/crazy_rabbit_survey_form/)
 
 > Série: Free Code Camp - RWD Curriculum / Projet 2
 
