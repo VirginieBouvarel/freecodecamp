@@ -1,4 +1,4 @@
-# Survey form
+# Crazy Rabbit Survey Form
 
 [Voir la démo](https://virginiebouvarel.github.io/crazy_rabbit_survey_form/)
 
