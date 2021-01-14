@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- icons fontawesome -->
+  <script src="https://kit.fontawesome.com/0ac17cb549.js"></script>
+  <!-- main font -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <!-- title font -->
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  <!-- reset css-->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- custom styles-->
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Crazy Rabbit Club - Survey Form</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 id="title">Crazy Rabbit Club Survey Form</h1>
+    <p id="description">Merci de nous aider à améliorer nos performances.</p>
+
+    <form action="#" id="survey-form">
+      <div class="form__item">
+        <label class="form-label" id="name-label" for="name">Nom</label>
+        <input required type="text" id="name" placeholder="Entrez votre nom">
+      </div>
+      <div class="form__item">
+        <label class="form-label"  id="email-label" for="email">Email</label>
+        <input id="email" required type="email" placeholder="adresse@mail.com">
+      </div>
+      <div class="form__item">
+        <label class="form-label"  id="number-label" for="number">Age</label>
+        <input id="number" type="number" min="7" max="77" placeholder="40" />
+      </div>
+      <div class="form__item">
+        <label class="form-label">Quel type de fan êtes-vous?</label>
+        <select id="dropdown">
+          <option>Choisissez votre niveau de fanitude</option>
+          <option>Fan</option>
+          <option>Crazy fan</option>
+          <option>Super crazy fan</option>
+          <option>Fan of the Year</option>
+        </select>
+      </div>
+      <div class="form__item">
+        <p class="form-label" >Conseilleriez-vous le Crazy Rabbit Club à vos proches ?</p>
+        <div>
+          <input type="radio" name="advise" value="1">
+          <label>Follement</label>
+        </div>
+        <div>
+          <input type="radio" name="advise" value="2">
+          <label>Je dois d'abord consulter Rabbit guru</label>
+        </div>
+        <div>
+          <input type="radio" name="advise" value="3">
+          <label>Passionément</label>
+        </div>
+      </div>
+
+      <div class="form__item">
+        <p class="form-label" >Quel sont vos lapins de coeur?</p>
+
+        <div class="rabbit-box">
+          <input type="checkbox" id="brazil" value="brazil">
+          <label for="brazil">Brazil FoutchBall</label>
+        </div>
+        <div class="rabbit-box">
+          <input type="checkbox" id="kingdom" value="kingdom">
+          <label for="kingdom">Kingdom Battle</label>
+        </div>
+        <div class="rabbit-box">
+          <input type="checkbox" id="pancake" value="pancake">
+          <label for="pancake">Pancake Dolly</label>
+        </div>
+        <div class="rabbit-box">
+          <input type="checkbox" id="super" value="super">
+          <label for="super">Super Crétin</label>
+        </div>
+        <div class="rabbit-box">
+          <input type="checkbox" id="allblacks" value="allblacks">
+          <label for="allblacks">All Blacks rabbit</label>
+        </div>
+        <div class="rabbit-box">
+          <input type="checkbox" id="gym" value="gym">
+          <label for="gym">Rabbit Toutouyoutou</label>
+        </div>
+        <div class="rabbit-box">
+          <input type="checkbox" id="wii" value="wii">
+          <label for="wii">Wiigic</label>
+        </div>
+      </div>
+
+      <div class="form__item">
+        <p class="form-label" >Un fin commentaire? Une suggestion inspirée?</p>
+        <textarea name="msg" id="msg" cols="75" rows="10" placeholder="Laissez un message à vos rabbits..."></textarea>
+      </div>
+
+      <input id="submit" type="submit" value="Envoyer">
+
+    </form>
+
+  </div>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
