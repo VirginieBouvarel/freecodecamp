@@ -3,7 +3,7 @@
 <img alt="freecodecamp" src="freecodecamp.jpg" width="250"/>
 
 Le site freecodecamp propose toute une série de certifications qui permettent d'acquérir les compétences requises pour prétendre à un poste de développeur frontend.\
-Chaque langage ou librairie à connaître fait l'objet d'un ensemble de cours sous forme de questions ou de mini-projets qui font le tour des bases nécessaires à connaître dans la techno visée.\
+Chaque langage ou librairie à connaître fait l'objet d'un ensemble de cours sous forme de questions et de mini-projets qui font le tour des bases nécessaires à connaître dans la techno visée.\
 5 mini projets encadrés par des tests, sont à réaliser dans chaque catégorie pour obtenir la certification correspondante.
 Vous pouvez visiter mon [profil](https://www.freecodecamp.org/virbaya) ou découvrir directement le site [freeCodeCamp.org](https://www.freecodecamp.org/).<br><br>
 
