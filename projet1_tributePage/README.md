@@ -1,6 +1,6 @@
 # Ada Lovelace Tribute Page
 
-[Voir la démo](https://virginiebouvarel.github.io/ada_lovelace_tribute_page/)
+[Voir la démo](https://virginiebouvarel.github.io/freecodecamp_curriculum/projet1_tributePage/)
 
 > Série: Free Code Camp - RWD Curriculum / Projet 1
 
