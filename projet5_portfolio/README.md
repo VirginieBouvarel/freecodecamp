@@ -1,23 +1,10 @@
-# Fake portfolio
+### Live version [here](https://virginiebouvarel.github.io/freecodecamp_curriculum/projet5_portfolio/).
 
-[Voir la démo](https://virginiebouvarel.github.io/fake_portfolio/)
-
-> Série: Free Code Camp - RWD Curriculum / Projet 5
-
-> Technos: HTML/CSS
+# FreeCodeCamp Curriculum/ Responsive Web Design (300h)
+## Projet N°5: Portfolio
+<br>
 
 
-Pour ce dernier projet du curriculum il s'agissait de réaliser un petit portfolio contenant les projets du curriculum.<br>
-
-Mon principal défi sur ce projet a été la gestion des images afin de parvenir à présenter des briques de tailles équivalentes en conservant des proportions esthétiques.<br><br><br>
-
-
-
-### Design preview
-
-![Design preview for this project ](./src/preview.png)
-
-
-
+<img align="left" style="margin-right:20px" alt="mobile design" src="./src/preview-mobile.png" width="150"/> <img align="left" alt="desktop design" src="./src/preview-desktop.png" width="450"/>
 
 
