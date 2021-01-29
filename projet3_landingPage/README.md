@@ -1,19 +1,8 @@
-# Crazy Rabbit Landing Page
+### Live version [here](https://virginiebouvarel.github.io/freecodecamp_curriculum/projet3_landingPage/).
 
-[Voir la démo](https://virginiebouvarel.github.io/crazy_rabbit_landing_page/)
+# FreeCodeCamp Curriculum/ Responsive Web Design (300h)
+## Projet N°3: Crazy Rabbits Club Landing page
+<br>
 
-> Série: Free Code Camp - RWD Curriculum / Projet 3
-
-> Technos: HTML/CSS
-
-
-Pour ce troisième projet du curriculum il s'agissait simplement de réaliser une page de présentation de produit.<br>
-
-Le défi technique sur ce projet touchait aux positionnements responsives des backgrounds et du logo , pour parvenir à ce que tout bouge de manière harmonieuse au rétrécissement de la page<br><br><br>
-
-
-
-### Design preview
-
-![Design preview for this project ](./src/preview.png)
+<img alt="Design preview for this coding challenge" src="./src/preview.png" width="450"/>
 
